@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            background-color: yellow;
+        }
+
+        .flex-container > * {
+            height: 300px;
+            width: 300px;
+            background-color: white;
+            display: inline-block;
+            border: solid 1px green;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+</html>
